@@ -153,7 +153,7 @@ int main()
     while (string_item)
     {
         printf("%s\n", string_item->string);
-        string_item = (struct string_item *)string_item->node.next;
+        string_item = (struct doubly_string_item *)string_item->node.next;
     }
 
 
