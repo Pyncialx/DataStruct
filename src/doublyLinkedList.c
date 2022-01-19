@@ -93,7 +93,19 @@ int *list_insert_afther(struct doubly_list_node *item, struct doubly_list_node *
     return 0;
 
 }
+int *list_Shuffle (struct doubly_list_node **head,int number_of_time_to_shuffle_single_item)
+{
+    /*random uno della lista -> remove
+    doubly_list_node node_to_swap_one = remove(blabla);
+    doubly_list_node node_to_swap_two = remove(blabla);
+    list append(problem of ripetute cicle) or list insert (found a new random where to insert item)
 
+
+    //fai un ciclo per un numero di volte richiesto quindi nella signature
+    
+    */
+   return 0;
+}
 int *list_insert_before(struct doubly_list_node **head,struct doubly_list_node *item, struct doubly_list_node *item_to_insert)
 {       
                                                                                                                 
